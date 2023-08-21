@@ -1,0 +1,10 @@
+*{/*configurações globais*/
+    height: 100%;
+}
+
+/* esse é pra criar um degrade da esquerda pra direita de branco para azul, se quisesse pra direita to left, 
+pra cima to top e para baixo to bottom. Alem do linear-gradient pode se usar o radial-gradient e seus tipos*/
+body{
+    background-image: linear-gradient(to right,#3198E2, #6D59C0, #b93590, #E33F5F,#FDD579);  
+    background-attachment: fixed;
+}
